@@ -15,7 +15,7 @@ streamlit.markdown("Nous sommes une structure de santé communautaire qui vise �
 streamlit.markdown("Notre hôpital est plus qu'une simple installation médicale ; **c'est une communauté**. Nous sommes engagés à travailler en étroite" 
                    "collaboration avec la communauté locale pour nous assurer que nos services sont adaptés à leurs besoins spécifiques. Nous croyons que"
                    "la participation communautaire est cruciale pour améliorer les résultats en matière de santé, et nous **_accueillons les commentaires de nos patients et de leur famille._**")
-streamlit.markdown("Merci de considérer notre hôpital pour vos besoins de santé. Nous sommes impatients de vous servir,** vous et votre famille.**")
+streamlit.markdown("Merci de considérer notre hôpital pour vos besoins de santé. Nous sommes impatients de vous servir, **vous et votre famille.**")
 
 
 # Using "with" notation
