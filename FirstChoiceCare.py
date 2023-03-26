@@ -8,7 +8,7 @@ streamlit.title('🏤 👨‍⚕️ Kadige Care')
 streamlit.header('Votre santé. Notre passion. Des soins qui durent toute une vie !')
 
 
-   streamlit.header("A propos de nous")
+   streamlit.subheader("A propos de nous")
    streamlit.text("Bienvenue chez Kadige Care (KC)")
    streamlit.text("Nous sommes une structure de santé communautaire qui vise à fournir des services médicaux de haute qualité à la population locale." 
                   "Notre hôpital est dédié à répondre aux besoins de santé des personnes vivant dans les zones rurales, qui ont souvent peu" 
