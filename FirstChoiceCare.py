@@ -14,8 +14,7 @@ streamlit.markdown("Nous sommes une structure de santé communautaire qui vise �
                   "d'accès aux services médicaux essentiels.")
 streamlit.markdown("Notre hôpital est plus qu'une simple installation médicale ; :blue[c'est une communauté]. Nous sommes engagés à travailler en étroite" 
                    "collaboration avec la communauté locale pour nous assurer que nos services sont adaptés à leurs besoins spécifiques. Nous croyons que"
-                   "la participation communautaire est cruciale pour améliorer les résultats en matière de santé, et nous :blue[accueillons les commentaires de "
-                   "nos patients et de leur famille.])
+                   "la participation communautaire est cruciale pour améliorer les résultats en matière de santé, et nous :blue[accueillons les commentaires de nos patients et de leur famille.])
 streamlit.text("Merci de considérer notre hôpital pour vos besoins de santé. Nous sommes impatients de vous servir," 
                    "vous et votre famille.")
 
