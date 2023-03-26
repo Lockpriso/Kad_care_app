@@ -1,7 +1,7 @@
 import streamlit
 from PIL import Image
 #opening the image
-image = Image.open('Image1')
+image = Image.open('C:\Users\PPR\Downloads\Image1.jpeg')
 
 
 
