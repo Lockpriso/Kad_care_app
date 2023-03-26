@@ -1,9 +1,4 @@
 import streamlit
-from PIL import Image
-#opening the image
-image = Image.open(r"C:\Users\PPR\Downloads\Image1.jpeg")
-
-
 
 #displaying the image on streamlit app
 
