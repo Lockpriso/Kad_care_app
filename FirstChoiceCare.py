@@ -8,7 +8,7 @@ streamlit.title('Kadige Care')
 streamlit.header('Your health. Our passion.')
 streamlit.subheader('Care That Lasts a Lifetime!')
 
-st.sidebar.title("Órbitas em Relatividade")
+streamlit.sidebar.title("Órbitas em Relatividade")
 pagina_selecionada = streamlit.sidebar.selectbox("Selecione um tipo de órbita", ['Óbita de corpos celestes', 'Órbita de raios de luz'])
 if pagina_selecionada == "Óbita de corpos celestes":
     streamlit.title("Particula massiva orbitando um buraco negro com a massa do Sol")
