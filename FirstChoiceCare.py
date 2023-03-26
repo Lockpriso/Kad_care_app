@@ -5,14 +5,13 @@ import streamlit
 
 
 streamlit.title('Kadige Care')
-streamlit.header('Your health. Our passion.')
-streamlit.subheader('Care That Lasts a Lifetime!')
+streamlit.header('Your health. Our passion. Care That Lasts a Lifetime!')
 
 col1, col2, col3 = streamlit.columns(3)
 
 with col1:
    streamlit.header("About us")
-   streamlit.image("https://static.streamlit.io/examples/cat.jpg")
+   streamlit.image("https://www.flaticon.com/free-icon/hospital_3063138")
 
 with col2:
    streamlit.header("Our Mission")
