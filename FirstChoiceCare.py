@@ -5,7 +5,7 @@ import streamlit
 
 
 streamlit.title('🏤 👨‍⚕️ Kadige Care')
-streamlit.header('Votre santé. Notre passion.)
+streamlit.header('Votre santé. Notre passion.')
 streamlit.text('Des soins qui durent toute une vie !')
 streamlit.subheader("A propos de nous")
 streamlit.text("Bienvenue chez Kadige Care (KC)")
