@@ -8,17 +8,26 @@ streamlit.title('Kadige Care')
 streamlit.header('Your health. Our passion.')
 streamlit.subheader('Care That Lasts a Lifetime!')
 
-# Using object notation
-add_selectbox = streamlit.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   streamlit.header("About us")
+   streamlit.image("https://static.streamlit.io/examples/cat.jpg")
+
+with col2:
+   streamlit.header("Our Mission")
+   streamlit.image("https://static.streamlit.io/examples/dog.jpg")
+
+with col3:
+   streamlit.header("Our Values")
+   streamlit.image("https://static.streamlit.io/examples/owl.jpg")
+
 
 # Using "with" notation
 with streamlit.sidebar:
     add_radio = streamlit.radio(
-        "Choose a shipping method",
-        ("Standard (5-15 days)", "Express (2-5 days)")
+        "Contact us",
+        ("Email", "Home phone", "Mobile phone")
     )
 
 
