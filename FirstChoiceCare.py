@@ -8,7 +8,7 @@ streamlit.title('Kadige Care')
 streamlit.header('Your health. Our passion.')
 streamlit.subheader('Care That Lasts a Lifetime!')
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = streamlit.columns(3)
 
 with col1:
    streamlit.header("About us")
