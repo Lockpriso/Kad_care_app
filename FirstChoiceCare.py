@@ -12,9 +12,9 @@ col1, col2, col3 = streamlit.columns(3)
 with col1:
    streamlit.header("About us")
    streamlit.text("Bienvenue chez Kadige Care (KC)")
-   streamlit.text('Nous sommes une structure de santé communautaire qui vise à fournir des services médicaux de haute qualité à la population locale. 
-                  Notre hôpital est dédié à répondre aux besoins de santé des personnes vivant dans les zones rurales, qui ont souvent peu 
-                  d''accès aux services médicaux essentiels.')
+   streamlit.text("Nous sommes une structure de santé communautaire qui vise à fournir des services médicaux de haute qualité à la population locale." 
+                  "Notre hôpital est dédié à répondre aux besoins de santé des personnes vivant dans les zones rurales, qui ont souvent peu" 
+                  "d'accès aux services médicaux essentiels.")
 
 with col2:
    streamlit.header("Our Mission")
