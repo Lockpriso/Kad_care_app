@@ -5,24 +5,14 @@ import streamlit
 
 
 streamlit.title('🏤 👨‍⚕️ Kadige Care')
-streamlit.header('Your health. Our passion. Care That Lasts a Lifetime!')
+streamlit.header('Votre santé. Notre passion. Des soins qui durent toute une vie !')
 
-col1, col2, col3 = streamlit.columns(3)
 
-with col1:
-   streamlit.header("About us")
+   streamlit.header("A propos de nous")
    streamlit.text("Bienvenue chez Kadige Care (KC)")
    streamlit.text("Nous sommes une structure de santé communautaire qui vise à fournir des services médicaux de haute qualité à la population locale." 
                   "Notre hôpital est dédié à répondre aux besoins de santé des personnes vivant dans les zones rurales, qui ont souvent peu" 
                   "d'accès aux services médicaux essentiels.")
-
-with col2:
-   streamlit.header("Our Mission")
-   streamlit.image("https://static.streamlit.io/examples/dog.jpg")
-
-with col3:
-   streamlit.header("Our Values")
-   streamlit.image("https://static.streamlit.io/examples/owl.jpg")
 
 
 # Using "with" notation
