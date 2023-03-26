@@ -2,7 +2,7 @@ import streamlit
 
 #displaying the image on streamlit app
 
-streamlit.image(image, caption='Enter any caption here')
+
 
 streamlit.title('Kadige Care')
 streamlit.header('Your health. Our passion.')
