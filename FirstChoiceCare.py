@@ -4,14 +4,17 @@ import streamlit
 
 
 
-streamlit.title('Kadige Care')
+streamlit.title('🏤 👨‍⚕️ Kadige Care')
 streamlit.header('Your health. Our passion. Care That Lasts a Lifetime!')
 
 col1, col2, col3 = streamlit.columns(3)
 
 with col1:
    streamlit.header("About us")
-   streamlit.image("https://www.flaticon.com/free-icon/hospital_3063138")
+   streamlit.text("Bienvenue chez Kadige Care (KC)")
+   streamlit.text('Nous sommes une structure de santé communautaire qui vise à fournir des services médicaux de haute qualité à la population locale. 
+                  Notre hôpital est dédié à répondre aux besoins de santé des personnes vivant dans les zones rurales, qui ont souvent peu 
+                  d''accès aux services médicaux essentiels.')
 
 with col2:
    streamlit.header("Our Mission")
